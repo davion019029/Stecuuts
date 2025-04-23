@@ -15,13 +15,13 @@ const ContactPage = () => {
         <h2 className="mb-4 text-3xl font-semibold">Informasi Kontak</h2>
         <ul className="space-y-4 text-lg">
           <li>
-            <strong>Email:</strong> support@eshop.com
+            <strong>Email:</strong> stecuuts@90shop.com
           </li>
           <li>
             <strong>Telepon:</strong> +62 812 3456 7890
           </li>
           <li>
-            <strong>Alamat:</strong> Jl. Raya No. 123, Jakarta, Indonesia
+            <strong>Alamat:</strong> Jl. Raya No. 123, Yogyakarta, Indonesia
           </li>
         </ul>
       </div>
