@@ -7,9 +7,9 @@ const HomePage = () => {
   return (
     <div className="min-h-screen p-8">
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-semibold">Selamat Datang di E-commerce</h1>
+        <h1 className="text-4xl font-semibold">Selamat Datang di Stecu</h1>
         <p className="mt-4 text-lg">
-          Temukan produk terbaik dengan harga terbaik hanya di E-commerce!
+          Temukan produk terbaik dengan harga terbaik hanya Stecu!
         </p>
       </div>
 
