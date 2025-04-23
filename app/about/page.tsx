@@ -4,31 +4,39 @@ const AboutPage = () => {
   const team = [
     {
       id: 1,
-      name: 'John Doe',
+      name: ' David Willem Nureroan',
       role: 'Founder & CEO',
       image: '/assets/people/team1.png',
-      bio: 'John adalah pendiri E-commerce dan bertanggung jawab atas arah dan visi perusahaan. Dengan pengalaman lebih dari 10 tahun di industri e-commerce, John memiliki visi untuk membuat belanja online lebih mudah dan terjangkau bagi semua orang.',
+      bio: 'Dave adalah pendiri perusahaan Stecu dan bertanggung jawab atas arah dan visi perusahaan. Dengan pengalaman lebih dari 10 tahun di bidang makanan, Dave memiliki visi untuk membuat belanja online makanan lebih mudah dan terjangkau bagi semua orang.',
     },
     {
       id: 2,
-      name: 'Jane Smith',
+      name: 'David Korengkeng',
       role: 'COO',
       image: '/assets/people/team2.png',
-      bio: 'Jane mengelola operasi harian E-commerce dan memastikan segala sesuatu berjalan dengan lancar. Dia memiliki latar belakang yang kuat dalam manajemen dan logistik, memastikan pelanggan kami mendapatkan pengalaman terbaik.',
+      bio: 'David mengelola operasi harian perusahaan Stecu dan memastikan segala sesuatu berjalan dengan lancar. Dia memiliki latar belakang yang kuat dalam manajemen dan logistik, memastikan pelanggan kami mendapatkan pengalaman terbaik.',
     },
     {
       id: 3,
-      name: 'Alex Johnson',
+      name: 'Dionisius Lindu Soni Duan',
       role: 'CTO',
       image: '/assets/people/team3.png',
-      bio: 'Alex adalah orang yang bertanggung jawab atas pengembangan teknologi di E-commerce. Dengan pengalaman di dunia teknologi, Alex memimpin tim IT untuk memastikan platform kami selalu inovatif dan aman.',
+      bio: 'Dion adalah orang yang bertanggung jawab atas pengembangan teknologi di perusahaan Stecu. Dengan pengalaman di dunia teknologi, Dion memimpin tim IT untuk memastikan platform kami selalu inovatif dan aman.',
+    },
+
+    {
+      id: 4,
+      name: 'Erland Gian Manuputty',
+      role: 'CFO',
+      image: '/assets/people/team3.png',
+      bio: 'Erland adalah orang yang bertanggung jawab atas keuangan dalam perusahaan Stecu. Dengan pengalaman di dunia Akuntansi, Erland memimpin tim Keuangan untuk memastikan transaksi aman dan terpercaya.',
     },
   ]
 
   return (
     <div className="min-h-screen p-8">
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-semibold">Tentang E-commerce</h1>
+        <h1 className="text-4xl font-semibold">Tentang Kami</h1>
         <p className="mt-4 text-lg">
           Pelajari lebih lanjut tentang toko kami, latar belakang, dan tim
           pengelola.
@@ -38,7 +46,7 @@ const AboutPage = () => {
       <div className="mb-12 rounded-lg bg-[#1f1f1f] p-6 shadow-md">
         <h2 className="mb-4 text-3xl font-semibold">Latar Belakang Toko</h2>
         <p className="text-lg">
-          E-commerce didirikan pada tahun 2025 dengan tujuan untuk memberikan
+          Stecu didirikan pada tahun 2025 dengan tujuan untuk memberikan
           pengalaman belanja online yang mudah dan menyenangkan. Kami
           menyediakan berbagai macam produk dengan harga yang bersaing, serta
           layanan pelanggan yang ramah dan responsif. Kami berkomitmen untuk
